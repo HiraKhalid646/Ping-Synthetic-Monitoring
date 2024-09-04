@@ -47,7 +47,9 @@ main.py
 •	YAML Configuration: The script reads the YAML file to obtain monitoring settings and targets.
 •	Ping Operations: The script performs ping operations on the specified servers, collects various metrics, and updates Prometheus with these metrics.
 •	Metrics Exposure: An HTTP server is started on port 8989 to expose the collected metrics to Prometheus.
-Troubleshooting
+
+Troubleshooting if needed : 
+
 1.	No Data in Prometheus:
 o	Ensure the main.py script is running and the HTTP server on port 8989 is accessible.
 o	Check the Prometheus configuration to ensure it correctly targets localhost:8989.
