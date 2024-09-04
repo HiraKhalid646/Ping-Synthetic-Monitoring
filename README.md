@@ -6,7 +6,7 @@ Prerequisites
 2.	Python Libraries:
 o	ping3: For performing ping operations.
 o	pyyaml: For parsing YAML configuration files.
-o	prometheus_client: For exposing metrics to Prometheus.
+o	prometheus_client: For exposing metrics to Prometheus..
 Install these libraries using pip:
 bash
 Copy code
