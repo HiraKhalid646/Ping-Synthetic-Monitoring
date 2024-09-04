@@ -1,1 +1,1 @@
-# Ping-Synthetic-Monitoring
+# Ping-Synthetic-Monitoring Platform
