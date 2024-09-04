@@ -1,0 +1,18 @@
+# synthetic_monitoring_config.yaml
+
+monitoring_config:
+  time_interval: 60  # Time interval in seconds between pings
+  probes: 3          # Number of probes to use for each server
+  packet_count: 4    # Number of packets to send for each ping test
+
+monitoring_targets:
+  servers:
+    - name: Google
+      ip: 8.8.8.8
+    - name: Cloudflare
+      ip: 1.1.1.1
+    - name: OpenDNS
+      ip: 208.67.222.222
+    - name: DigitalOcean
+      ip: 167.99.221.187
+
